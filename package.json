@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "machine": "11.0.3",
-    "machinepack-postgresql": "~0.4.0",
+    "machinepack-postgresql": "particlebanana/machinepack-postgresql",
     "machinepack-sql-builder": "particlebanana/waterline-query-builder#mechanize"
   },
   "devDependencies": {
