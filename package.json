@@ -26,7 +26,11 @@
     "friendlyName": "Radar PostgreSQL",
     "machineDir": "machines/",
     "machines": [
-    
+      "execute-query",
+      "get-connection",
+      "rollback-transaction",
+      "commit-transaction",
+      "begin-transaction"
     ]
   }
 }
