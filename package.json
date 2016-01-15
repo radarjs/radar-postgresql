@@ -15,7 +15,9 @@
   "author": "Cody Stoltman",
   "license": "MIT",
   "dependencies": {
-    "machine": "11.0.3"
+    "machine": "11.0.3",
+    "machinepack-postgresql": "~0.4.0",
+    "machinepack-sql-builder": "particlebanana/waterline-query-builder#mechanize"
   },
   "devDependencies": {
     "test-machinepack-mocha": "~2.1.3"
