@@ -1,0 +1,30 @@
+{
+  "name": "machinepack-radar-postgresql",
+  "version": "0.1.0",
+  "description": "Used by Radar to communicate with a PostgreSQL database",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "radar",
+    "PostgreSQL",
+    "postgres",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Cody Stoltman",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "11.0.3"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "~2.1.3"
+  },
+  "machinepack": {
+    "friendlyName": "Radar PostgreSQL",
+    "machineDir": "machines/",
+    "machines": [
+    
+    ]
+  }
+}
